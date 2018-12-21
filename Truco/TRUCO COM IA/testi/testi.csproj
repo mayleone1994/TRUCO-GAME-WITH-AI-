@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9957D6E0-D85D-49D2-8D29-E65650315C28}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>testi</RootNamespace>
+    <AssemblyName>testi</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Carta.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\E13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N2.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
